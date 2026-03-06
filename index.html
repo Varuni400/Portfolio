@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Varuni Portfolio</title>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+flex-direction:column;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.btn{
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+color:black;
+font-weight:bold;
+border-radius:5px;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#0ea5e9;
+}
+
+section{
+padding:80px 100px;
+}
+
+h2{
+font-size:35px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.contact p{
+font-size:18px;
+margin:10px 0;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>MyPortfolio</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<h1 data-aos="fade-up">Hi, I'm <span>Varuni</span></h1>
+
+<p data-aos="fade-up" data-aos-delay="200">
+Web Developer | IoT Enthusiast | Digital Marketing Learner
+</p>
+
+<p data-aos="fade-up" data-aos-delay="400">
+I am a passionate technology enthusiast interested in web development, Internet of Things (IoT), and digital marketing.
+I enjoy building innovative solutions and learning modern technologies that solve real-world problems.
+</p>
+
+</div>
+
+<section id="about">
+
+<h2 data-aos="fade-right">About Me</h2>
+
+<p data-aos="fade-left">
+I am currently a student with a strong interest in technology and entrepreneurship.
+My areas of interest include web development, IoT-based systems, and digital marketing strategies.
+I enjoy working on practical projects and constantly improving my technical skills.
+</p>
+
+<br>
+
+<p data-aos="fade-left">
+My goal is to build innovative digital solutions and start my own successful
+technology-based business and entrepreneur in other fields in my  future.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 data-aos="fade-right">Skills</h2>
+
+<div class="skills">
+
+<div class="skill" data-aos="zoom-in">HTML</div>
+<div class="skill" data-aos="zoom-in">CSS</div>
+<div class="skill" data-aos="zoom-in">JavaScript</div>
+<div class="skill" data-aos="zoom-in">Python</div>
+<div class="skill" data-aos="zoom-in">IoT System Development</div>
+<div class="skill" data-aos="zoom-in">UI/UX Design</div>
+<div class="skill" data-aos="zoom-in">Digital Marketing</div>
+<div class="skill" data-aos="zoom-in">Social Media Marketing</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 data-aos="fade-right">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card" data-aos="flip-left">
+<h3>IoT Grape Cold Storage Monitoring System</h3><br>
+<p>
+Developed a system to monitor temperature and humidity inside grape cold storage using IoT sensors.
+This helps maintain optimal storage conditions and reduce spoilage.
+</p>
+</div>
+
+<div class="project-card" data-aos="flip-left">
+<h3>Portfolio Website</h3><br>
+<p>
+Designed and developed a modern personal portfolio website to showcase my skills,
+projects, and achievements.
+</p>
+</div>
+
+<div class="project-card" data-aos="flip-left">
+<h3>Water Management System</h3><br>
+<p>
+Developed a system to monitor temperature and humidity level of the soil using IoT sensors.
+This helps maintain the temperature and water content in the soil to increase the yield. 
+This helps to make the soil and crops healthier.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 data-aos="fade-right">Education</h2>
+
+<p data-aos="fade-left">
+Bachelor of Technology 
+</p>
+
+<p data-aos="fade-left">
+College Name: Nadar Saraswathi College of Engineering & Technology
+</p>
+
+<p data-aos="fade-left">
+Department: Artificial Intelligence and Data Science
+</p>
+
+<p data-aos="fade-left">
+Year: 2023 – 2027
+</p>
+
+</section>
+
+<section>
+
+<h2 data-aos="fade-right">Achievements & Activities</h2>
+
+<ul>
+<li>Participated in technical workshops related to web development.</li> 
+<li>Worked on multiple academic projects related to IoT.</li> 
+<li>Practicing digital marketing strategies for online promotion.</li>
+
+</ul>
+
+</section>
+
+<section id="internship">
+
+<h2>Internship</h2>
+
+<h3>Web Development Intern</h3><br>
+<p><strong>Company:</strong> Twiki BOT Technologies</p><br>
+<p><strong>Duration:</strong> July 2025 – Augest 2025</p><br>
+
+<p>
+Worked on developing responsive web pages using HTML, CSS, and JavaScript.
+Assisted in improving website performance and learned practical development workflows.
+</p><br><br>
+
+<h3>Web Design and Cloud Hosting Intern</h3><br>
+<p><strong>Company:</strong> FuturiK Technologies</p><br>
+<p><strong>Duration:</strong> Seven Days</p><br>
+
+<p>
+Worked as a Web Design and Cloud Hosting Intern where I gained practical experience
+in designing responsive websites and managing web hosting environments.
+</p>
+
+</section>
+
+<section id="achievements">
+
+<h2>Extracurricular Achievements</h2>
+
+<ul>
+<li>Participated in inter-college sports competitions.</li>
+<li>Won winner position in throwball events.</li>
+<li>Active participant in college cultural and sports activities.</li>
+<li>Participated in yoga and fitness programs.</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2 data-aos="fade-right">Career Goals</h2>
+
+<p>
+My goal is to become a skilled developer and entrepreneur.
+I aim to combine technology with business ideas such as agriculture technology,
+IoT solutions, and online business platforms.
+</p>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 data-aos="fade-right">Contact Information</h2>
+
+<p>Email: janakivaruni1980@email.com</p>
+<p>Phone: +91 86681 02993</p>
+<p>Location: Cumbum, Theni District, Tamil Nadu, India</p>
+<p>
+LinkedIn: 
+<a href="https://www.linkedin.com/in/varuni-thirumoorthy-9075342a3" target="_blank">
+www.linkedin.com/in/varuni-thirumoorthy-9075342a3
+</a>
+</p>
+<p>
+Portfolio Repository: 
+<a href="https://github.com/Varuni400/Portfolio" target="_blank">
+https://github.com/Varuni400/Portfolio
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Varuni Portfolio</p>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000
+});
+</script>
+
+</body>
+</html>
